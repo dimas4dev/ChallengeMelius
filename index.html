@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Melius Challenge</title>
+  </head>
+  <body>
+    <section class="main">
+      <section class="sectionPersonajes">
+        <h1 class="tituloStar">Stars Wars Wiki</h1>
+        <div class="selectPersonajes">
+          <select name="personajes" id="personaje" class="personajes">
+            <option value="null">Seleccione un personaje</option>
+          </select>
+        </div>
+
+        <article class="resultadoPersonaje novisible">
+          <h3 id="namePersonaje">Nombre Personaje</h3>
+          <h4>Caracteristicas</h4>
+          <span class="columnas">
+            <p>Altura</p>
+            <p>172 Cm</p>
+          </span>
+          <span class="columnas">
+            <p>Peso</p>
+            <p id="pesoPersonaje"></p>
+          </span>
+          <span class="columnas">
+            <p>Color De Cabello</p>
+            <p id="hairColor">Blond</p>
+          </span>
+          <span class="columnas">
+            <p>Color De Piel</p>
+            <p id="hairSkin">Fair</p>
+          </span>
+          <span class="columnas">
+            <p>Color de Ojos</p>
+            <p id="eyeColor">Azules</p>
+          </span>
+          <span class="columnas">
+            <p>Año de Nacimiento</p>
+            <p id="birthDay">19BBY</p>
+          </span>
+          <span class="columnas">
+            <p>Genero</p>
+            <p id="Gender">Male</p>
+          </span>
+        </article>
+      </section>
+      <section class="projects">
+        <h1>GitHub Projects</h1>
+        <section class="inputs">
+          <input id="inputUsuario" type="text" />
+          <button value="bro" id="buttonSubmit" type="button">Enviar</button>
+        </section>
+        <section class="repositorios">
+          <img
+            class="picPerfil novisible"
+            src=""
+            alt=""
+            width="200px"
+            height="200px"
+          />
+          <ul class="listaRepos"></ul>
+        </section>
+      </section>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

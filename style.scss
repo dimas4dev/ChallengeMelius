@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.main {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+
+  .sectionPersonajes {
+    width: 400px;
+    height: 620px;
+    border-radius: 15px;
+    box-shadow: 10px 25px 30px -7px rgba(10, 10, 10, 0.71);
+    .tituloStar {
+      text-align: center;
+    }
+    .columnas {
+      margin: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .selectPersonajes {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .resultadoPersonaje {
+      h3,
+      h4 {
+        text-align: center;
+      }
+    }
+  }
+  .novisible {
+    display: none;
+  }
+  .projects {
+    width: 400px;
+    box-shadow: 10px 25px 30px -7px rgba(10, 10, 10, 0.71);
+    border-radius: 15px;
+    h1 {
+      text-align: center;
+    }
+
+    .inputs {
+      display: flex;
+      justify-content: space-evenly;
+      #inputUsuario {
+        border-radius: 5px;
+        width: 200px;
+        text-align: center;
+        margin: 10px;
+      }
+      #buttonSubmit {
+        width: 100px;
+        background-color: limegreen;
+        color: white;
+      }
+    }
+    .repositorios {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      ul {
+        list-style: none;
+      }
+      img {
+        margin: 20px;
+        border-radius: 300px;
+      }
+    }
+  }
+}

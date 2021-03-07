@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.main {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main .sectionPersonajes {
+  width: 400px;
+  height: 620px;
+  border-radius: 15px;
+  box-shadow: 10px 25px 30px -7px rgba(10, 10, 10, 0.71);
+}
+.main .sectionPersonajes .tituloStar {
+  text-align: center;
+}
+.main .sectionPersonajes .columnas {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .sectionPersonajes .selectPersonajes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.main .sectionPersonajes .resultadoPersonaje h3,
+.main .sectionPersonajes .resultadoPersonaje h4 {
+  text-align: center;
+}
+.main .novisible {
+  display: none;
+}
+.main .projects {
+  width: 400px;
+  box-shadow: 10px 25px 30px -7px rgba(10, 10, 10, 0.71);
+  border-radius: 15px;
+}
+.main .projects h1 {
+  text-align: center;
+}
+.main .projects .inputs {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main .projects .inputs #inputUsuario {
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+}
+.main .projects .inputs #buttonSubmit {
+  width: 100px;
+  background-color: limegreen;
+  color: white;
+}
+.main .projects .repositorios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.main .projects .repositorios ul {
+  list-style: none;
+}
+.main .projects .repositorios img {
+  margin: 20px;
+  border-radius: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
