@@ -18,4 +18,8 @@ Para Instalar el proyecto lo unico que debes realizar el clonar el repositorio
 ## Demo
 
 Aqui podras encontrar un demo:
-[Demo]()
+[Demo](https://dimasmendoza.github.io/ChallengeMelius/)
+
+## Contacto
+
+[LinkedIn](https://www.linkedin.com/in/12dimasmendoza97/)
