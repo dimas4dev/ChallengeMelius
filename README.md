@@ -10,14 +10,16 @@ Para el API de GitHub lo que hice fue realizar un input de texto que captura el 
 
 1. Esta prueba la podia realizar en con ayuda de cualquier libreria, sin embargo la decidi realizar con VanillaJS porque actualmente quiero dominar el lenguaje de JS y perfeccionar el uso de este.
 
-##Instalacion
+## Instalacion
 
 Para Instalar el proyecto lo unico que debes realizar el clonar el repositorio
+
 `$ git clone https://github.com/dimasmendoza/ChallengeMelius.git`
 
 ## Demo
 
 Aqui podras encontrar un demo:
+
 [Demo](https://dimasmendoza.github.io/ChallengeMelius/)
 
 ## Contacto
