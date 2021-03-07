@@ -35,7 +35,8 @@
   box-shadow: 10px 25px 30px -7px rgba(10, 10, 10, 0.71);
   border-radius: 15px;
 }
-.main .projects h1 {
+.main .projects h1,
+.main .projects p {
   text-align: center;
 }
 .main .projects .inputs {
