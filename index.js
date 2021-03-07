@@ -42,6 +42,7 @@ async function fetchData() {
     }
   });
 }
+fetchData();
 
 const submit = document.getElementById("buttonSubmit");
 
@@ -79,5 +80,3 @@ async function traerInfoGit() {
     })
   );
 }
-
-fetchData();
